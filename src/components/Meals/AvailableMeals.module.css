@@ -1,0 +1,23 @@
+
+    .meals {
+        max-width: 40rem;
+        width: 90%;
+        margin: 2rem auto;
+        border-radius: 6px;
+        background-color: #f4f4f4;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+        padding: 1rem;
+    }
+
+.meals ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.meals li {
+    margin: 1rem 0;
+    padding: 0.5rem;
+    border-bottom: 1px solid #ccc;
+    font-size: 10px;
+}

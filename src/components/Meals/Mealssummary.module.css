@@ -1,10 +1,18 @@
 .summary{
     color: white;
-    font-size: 30px;
+    font-size: 10px;
     text-align: center;
     background-color: grey;
+   
+    border: 2px solid grey; /* Specify the border */
+    padding: 20px; /* Add padding for spacing inside the box */
+    max-width: 500px; /* Limit the width of the box */
+    margin :20px auto; /* Center the box horizontally with auto margins */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: add a shadow for better visibility */
+    border-radius: 8px; /* Optional: add rounded corners */
 }
 .summary h2 {
-    font-size: 3rem;
+    font-size: 1rem;
     margin-top: 0;
   }
