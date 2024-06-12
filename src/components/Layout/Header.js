@@ -4,6 +4,7 @@ import mealsImage from "../../assets/meals.jpg"
 import cartImage from "../../assets/cart.jpg"
 
 import React,{useState} from "react"
+import HeaderCartButton from "./HeaderCartButton"
 
 
 const Header=(props)=>{
@@ -17,9 +18,8 @@ const Header=(props)=>{
         <Fragment>
             <header className={classes.header}>
             <h1>ReactMeals</h1>
-             <button className={classes['button']}> 
-                 <img className={classes['cart-image']} src={cartImage} alt="Cart" /> Your Cart  
-                 <span className={classes['cart-count']}>{countItemsInCart()}</span></button>
+            <HeaderCartButton onClick={props.onShowCart}/>
+          
                   </header>
             <div className={classes['main-image']}>
            <img src={mealsImage} alt="A Table full of delicious food!"/>
